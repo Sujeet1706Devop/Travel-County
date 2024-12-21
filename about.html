@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Travel County</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark px-5 d-none d-lg-block">
+        <div class="row gx-0">
+            <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>123 Street, New York, USA</small>
+                    <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+91 92204 13324</small>
+                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i>info@travelcounty.com</small>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center text-lg-end">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://www.facebook.com/profile.php?id=61568608033164"><i class="fab fa-facebook-f fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://www.instagram.com/travel.county_/"><i class="fab fa-instagram fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" href=""><i class="fab fa-youtube fw-normal"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+            <a href="index.html" class="navbar-brand p-0">
+                <h1 class="text-primary m-0"><img src="img/logo.png" alt="Logo"></i>Travel County</h1>
+                <!-- <img src="img/logo.png" alt="Logo"> -->
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="index.html" class="nav-item nav-link">Home</a>
+                    <a href="about.html" class="nav-item nav-link active">About</a>
+                    <a href="service.html" class="nav-item nav-link">Services</a>
+                    <a href="package.html" class="nav-item nav-link">Packages</a>
+                    <a href="membership.html" class="nav-item nav-link">Membership</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">More</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="destination.html" class="dropdown-item">Destination</a>
+                            <a href="booking.html" class="dropdown-item">Booking</a>
+                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                            <a href="gallery.html" class="dropdown-item">Gallery</a>
+                            <a href="404.html" class="dropdown-item">404 Page</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+                <a href="login.html" class="btn btn-primary rounded-pill py-2 px-4">Login</a>
+            </div>
+        </nav>
+
+        <div class="container-fluid bg-primary py-5 mb-5 hero-header">
+            <div class="container py-5">
+                <div class="row justify-content-center py-5">
+                    <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
+                        <h1 class="display-3 text-white animated slideInDown">About Us</h1>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb justify-content-center">
+                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item"><a href="#">More</a></li>
+                                <li class="breadcrumb-item text-white active" aria-current="page">About</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar & Hero End -->
+
+
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/about.jpg" alt="" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6>
+                    <h1 class="mb-4">Welcome to <span class="text-primary">Travel County</span></h1>
+                    <p class="mb-4">At Travel County, we believe that every journey should be an adventure of a lifetime. Our goal is to turn your travel dreams into reality by creating personalized, seamless experiences that cater to your unique interests. Whether you’re looking for a peaceful retreat, an action-packed adventure, or an immersive cultural experience, we’ve got you covered. Our expert team works closely with you to design the perfect itinerary, ensuring every detail is taken care of so you can focus on making memories.</p>
+                    <p class="mb-4">What makes Travel County different is our focus on you. We take the time to understand your travel goals, offering tailor-made trips that fit your budget, style, and desires. From expert advice to stress-free planning, we’re with you every step of the way. Our mission is to help you explore the world with ease and joy, ensuring your trip is as smooth and exciting as possible. Let us help you discover the world your way, one unforgettable journey at a time.</p>
+                    <div class="row gy-2 gx-4 mb-4">
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>First Class Flights</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Handpicked Hotels</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>5 Star Accommodations</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Latest Model Vehicles</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>150 Premium City Tours</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>24/7 Service</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!--About End-->
+
+     <!--About Start 2-->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5 flex-lg-row-reverse"> <!-- Add the flex-lg-row-reverse class here -->
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/about.jpg" alt="" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h6 class="section-title bg-white text-start text-primary pe-3">Offering</h6>
+                    <h1 class="mb-4">Luxury <span class="text-primary">Travel</span></h1>
+                    <p class="mb-4">we specialize in curating bespoke luxury travel experiences that cater to your every need. Our mission is to offer you seamless, unforgettable journeys that combine elegance, comfort, and adventure. Whether it’s a private villa retreat, a yacht charter, or exclusive access to hidden gems, we tailor each experience to reflect your personal preferences and desires. Our expert team is committed to providing world-class service, ensuring that every detail of your trip is handled with precision and care.</p>
+                    <p class="mb-4">With handpicked luxury accommodations, private guides, gourmet dining, and VIP access, Travel County ensures that your travels are not just about visiting a destination, but about creating lasting memories. From the moment you start planning until your return home, we work with you to design a journey that exceeds your expectations, turning your travel dreams into reality. Let us take you to the world’s most exclusive destinations, where luxury meets the extraordinary.</p>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End 2 -->
+
+    <!--About Start 3-->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/about.jpg" alt="" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h6 class="section-title bg-white text-start text-primary pe-3">Travel County</h6>
+                    <h1 class="mb-4">Mission <span class="text-primary">& Vision</span></h1>
+                    <p class="mb-4">Our mission is to make travel accessible, exciting, and stress-free for everyone. We are committed to providing personalized travel experiences that go beyond the ordinary. By listening to your needs and understanding your unique preferences, we design journeys that reflect your passions and create lasting memories. With our expertise and attention to detail, we aim to provide seamless planning, unbeatable value, and exceptional customer service, ensuring that every trip is an unforgettable adventure.</p>
+                    <p class="mb-4">Our vision is to be a global leader in personalized travel, known for curating transformative journeys that inspire exploration and enrich lives. We envision a world where every traveler has the freedom to explore new destinations, immerse in diverse cultures, and make meaningful connections along the way. Through innovation, trust, and a deep passion for travel, we strive to build a brand that travelers turn to for authentic, high-quality experiences that are both exciting and enriching. At Travel County, we see travel as a gateway to endless possibilities and personal growth.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--About End 3 -->
+
+
+    <!--About Start 4-->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5 flex-lg-row-reverse"> <!-- Add the flex-lg-row-reverse class here -->
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/about.jpg" alt="" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h6 class="section-title bg-white text-start text-primary pe-3">Services</h6>
+                    <h1 class="mb-4">Travel <span class="text-primary">Service</span></h1>
+                    <p class="mb-4">we offer a wide range of services to meet all your travel needs, from hotel reservations and ticketing to holiday packages and vacation memberships. We also provide visa and passport assistance, cruises, and MICE services, ensuring that both leisure and business travelers receive tailored solutions. Whether it's a simple trip or a complex itinerary, we’ve got you covered.</p>
+                    <p class="mb-4">Our goal is to deliver a seamless, reliable travel experience. With our expertise and personalized approach, we handle every detail to ensure your journey is stress-free and unforgettable. Trust Travel County to make your travel plans effortless and enjoyable.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--About End 4 -->
+
+<!-- Gallery Start -->
+<div class="container-fluid gallery py-5 my-5">
+    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+        <h6 class="section-title bg-white text-center text-primary px-3">OUR GALLERY</h6>
+        <h1 class="mb-5">Tourisum & Travelling Gallery</h1>
+    </div>
+    <div class="tab-class text-center">
+        <ul class="nav nav-pills d-inline-flex justify-content-center mb-5">
+            <li class="nav-item">
+                <a class="d-flex mx-3 py-2 border border-primary bg-light rounded-pill active" data-bs-toggle="pill" href="#GalleryTab-1">
+                    <span class="text-dark" style="width: 150px;">All</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="d-flex py-2 mx-3 border border-primary bg-light rounded-pill" data-bs-toggle="pill" href="#GalleryTab-2">
+                    <span class="text-dark" style="width: 150px;">World tour</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="d-flex mx-3 py-2 border border-primary bg-light rounded-pill" data-bs-toggle="pill" href="#GalleryTab-3">
+                    <span class="text-dark" style="width: 150px;">Ocean Tour</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="d-flex mx-3 py-2 border border-primary bg-light rounded-pill" data-bs-toggle="pill" href="#GalleryTab-4">
+                    <span class="text-dark" style="width: 150px;">Summer Tour</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="d-flex mx-3 py-2 border border-primary bg-light rounded-pill" data-bs-toggle="pill" href="#GalleryTab-5">
+                    <span class="text-dark" style="width: 150px;">Sport Tour</span>
+                </a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div id="GalleryTab-1" class="tab-pane fade show p-0 active">
+                <div class="row g-2">
+                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                        <div class="gallery-item h-100">
+                            <img src="img/gallery-1.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                            <div class="gallery-content">
+                                <div class="gallery-info">
+                                    <h5 class="text-white text-uppercase mb-2">World Tour</h5>
+                                    <a href="#" class="btn-hover text-white">View All Place <i class="fa fa-arrow-right ms-2"></i></a>
+                                </div>
+                            </div>
+                            <div class="gallery">
+                                <a href="img/gallery-1.jpg" data-lightbox="gallery-1" class="my-auto"><i class="fas fa-plus fa-2x text-white"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                        <div class="gallery-item h-100">
+                            <img src="img/gallery-2.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                            <div class="gallery-content">
+                                <div class="gallery-info">
+                                    <h5 class="text-white text-uppercase mb-2">World Tour</h5>
+                                    <a href="#" class="btn-hover text-white">View All Place <i class="fa fa-arrow-right ms-2"></i></a>
+                                </div>
+                            </div>
+                            <div class="gallery">
+                                <a href="img/gallery-2.jpg" data-lightbox="gallery-2" class="my-auto"><i class="fas fa-plus fa-2x text-white"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                        <div class="gallery-item h-100">
+                            <img src="img/gallery-3.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                            <div class="gallery-content">
+                                <div class="gallery-info">
+                                    <h5 class="text-white text-uppercase mb-2">World Tour</h5>
+                                    <a href="#" class="btn-hover text-white">View All Place <i class="fa fa-arrow-right ms-2"></i></a>
+                                </div>
+                            </div>
+                            <div class="gallery">
+                                <a href="img/gallery-3.jpg" data-lightbox="gallery-3" class="my-auto"><i class="fas fa-plus fa-2x text-white"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                        <div class="gallery-item h-100">
+                            <img src="img/gallery-4.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                            <div class="gallery-content">
+                                <div class="gallery-info">
+                                    <h5 class="text-white text-uppercase mb-2">World Tour</h5>
+                                    <a href="#" class="btn-hover text-white">View All Place <i class="fa fa-arrow-right ms-2"></i></a>
+                                </div>
+                            </div>
+                            <div class="gallery">
+                                <a href="img/gallery-4.jpg" data-lightbox="gallery-4" class="my-auto"><i class="fas fa-plus fa-2x text-white"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                        <div class="gallery-item h-100">
+                            <img src="img/gallery-5.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                            <div class="gallery-content">
+                                <div class="gallery-info">
+                                    <h5 class="text-white text-uppercase mb-2">World Tour</h5>
+                                    <a href="#" class="btn-hover text-white">View All Place <i class="fa fa-arrow-right ms-2"></i></a>
+                                </div>
+                            </div>
+                            <div class="gallery">
+                                <a href="img/gallery-5.jpg" data-lightbox="gallery-5" class="my-auto"><i class="fas fa-plus fa-2x text-white"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                        <div class="gallery-item h-100">
+                            <img src="img/gallery-6.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                            <div class="gallery-content">
+                                <div class="gallery-info">
+                                    <h5 class="text-white text-uppercase mb-2">World Tour</h5>
+                                    <a href="#" class="btn-hover text-white">View All Place <i class="fa fa-arrow-right ms-2"></i></a>
+                                </div>
+                            </div>
+                            <div class="gallery">
+                                <a href="img/gallery-6.jpg" data-lightbox="gallery-6" class="my-auto"><i class="fas fa-plus fa-2x text-white"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                        <div class="gallery-item h-100">
+                            <img src="img/gallery-7.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                            <div class="gallery-content">
+                                <div class="gallery-info">
+                                    <h5 class="text-white text-uppercase mb-2">World Tour</h5>
+                                    <a href="#" class="btn-hover text-white">View All Place <i class="fa fa-arrow-right ms-2"></i></a>
+                                </div>
+                            </div>
+                            <div class="gallery">
+                                <a href="img/gallery-7.jpg" data-lightbox="gallery-7" class="my-auto"><i class="fas fa-plus fa-2x text-white"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-3 col-xl-2">
+                        <div class="gallery-item h-100">
+                            <img src="img/gallery-8.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                            <div class="gallery-content">
+                                <div class="gallery-info">
+                                    <h5 class="text-white text-uppercase mb-2">World Tour</h5>
+                                    <a href="#" class="btn-hover text-white">View All Place <i class="fa fa-arrow-right ms-2"></i></a>
+                                </div>
+                            </div>
+                            <div class="gallery">
+                                <a href="img/gallery-8.jpg" data-lightbox="gallery-8" class="my-auto"><i class="fas fa-plus fa-2x text-white"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                        <div class="gallery-item h-100">
+                            <img src="img/gallery-9.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                            <div class="gallery-content">
+                                <div class="gallery-info">
+                                    <h5 class="text-white text-uppercase mb-2">World Tour</h5>
+                                    <a href="#" class="btn-hover text-white">View All Place <i class="fa fa-arrow-right ms-2"></i></a>
+                                </div>
+                            </div>
+                            <div class="gallery">
+                                <a href="img/gallery-9.jpg" data-lightbox="gallery-9" class="my-auto"><i class="fas fa-plus fa-2x text-white"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-3 col-xl-2">
+                        <div class="gallery-item h-100">
+                            <img src="img/gallery-10.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                            <div class="gallery-content">
+                                <div class="gallery-info">
+                                    <h5 class="text-white text-uppercase mb-2">World Tour</h5>
+                                    <a href="#" class="btn-hover text-white">View All Place <i class="fa fa-arrow-right ms-2"></i></a>
+                                </div>
+                            </div>
+                            <div class="gallery">
+                                <a href="img/gallery-10.jpg" data-lightbox="gallery-10" class="my-auto"><i class="fas fa-plus fa-2x text-white"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="GalleryTab-2" class="tab-pane fade show p-0">
+                <div class="row g-2">
+                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                        <div class="gallery-item h-100">
+                            <img src="img/gallery-2.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                            <div class="gallery-content">
+                                <div class="gallery-info">
+                                    <h5 class="text-white text-uppercase mb-2">World Tour</h5>
+                                    <a href="#" class="btn-hover text-white">View All Place <i class="fa fa-arrow-right ms-2"></i></a>
+                                </div>
+                            </div>
+                            <div class="gallery">
+                                <a href="img/gallery-2.jpg" data-lightbox="gallery-2" class="my-auto"><i class="fas fa-plus fa-2x text-white"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                        <div class="gallery-item h-100">
+                            <img src="img/gallery-3.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                            <div class="gallery-content">
+                                <div class="gallery-info">
+                                    <h5 class="text-white text-uppercase mb-2">World Tour</h5>
+                                    <a href="#" class="btn-hover text-white">View All Place <i class="fa fa-arrow-right ms-2"></i></a>
+                                </div>
+                            </div>
+                            <div class="gallery">
+                                <a href="img/gallery-3.jpg" data-lightbox="gallery-3" class="my-auto"><i class="fas fa-plus fa-2x text-white"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="GalleryTab-3" class="tab-pane fade show p-0">
+                <div class="row g-2">
+                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                        <div class="gallery-item h-100">
+                            <img src="img/gallery-2.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                            <div class="gallery-content">
+                                <div class="gallery-info">
+                                    <h5 class="text-white text-uppercase mb-2">World Tour</h5>
+                                    <a href="#" class="btn-hover text-white">View All Place <i class="fa fa-arrow-right ms-2"></i></a>
+                                </div>
+                            </div>
+                            <div class="gallery">
+                                <a href="img/gallery-2.jpg" data-lightbox="gallery-2" class="my-auto"><i class="fas fa-plus fa-2x text-white"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                        <div class="gallery-item h-100">
+                            <img src="img/gallery-3.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                            <div class="gallery-content">
+                                <div class="gallery-info">
+                                    <h5 class="text-white text-uppercase mb-2">World Tour</h5>
+                                    <a href="#" class="btn-hover text-white">View All Place <i class="fa fa-arrow-right ms-2"></i></a>
+                                </div>
+                            </div>
+                            <div class="gallery">
+                                <a href="img/gallery-3.jpg" data-lightbox="gallery-3" class="my-auto"><i class="fas fa-plus fa-2x text-white"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="GalleryTab-4" class="tab-pane fade show p-0">
+                <div class="row g-2">
+                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                        <div class="gallery-item h-100">
+                            <img src="img/gallery-2.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                            <div class="gallery-content">
+                                <div class="gallery-info">
+                                    <h5 class="text-white text-uppercase mb-2">World Tour</h5>
+                                    <a href="#" class="btn-hover text-white">View All Place <i class="fa fa-arrow-right ms-2"></i></a>
+                                </div>
+                            </div>
+                            <div class="gallery">
+                                <a href="img/gallery-2.jpg" data-lightbox="gallery-2" class="my-auto"><i class="fas fa-plus fa-2x text-white"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                        <div class="gallery-item h-100">
+                            <img src="img/gallery-3.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                            <div class="gallery-content">
+                                <div class="gallery-info">
+                                    <h5 class="text-white text-uppercase mb-2">World Tour</h5>
+                                    <a href="#" class="btn-hover text-white">View All Place <i class="fa fa-arrow-right ms-2"></i></a>
+                                </div>
+                            </div>
+                            <div class="gallery">
+                                <a href="img/gallery-3.jpg" data-lightbox="gallery-3" class="my-auto"><i class="fas fa-plus fa-2x text-white"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="GalleryTab-5" class="tab-pane fade show p-0">
+                <div class="row g-2">
+                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                        <div class="gallery-item h-100">
+                            <img src="img/gallery-2.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                            <div class="gallery-content">
+                                <div class="gallery-info">
+                                    <h5 class="text-white text-uppercase mb-2">World Tour</h5>
+                                    <a href="#" class="btn-hover text-white">View All Place <i class="fa fa-arrow-right ms-2"></i></a>
+                                </div>
+                            </div>
+                            <div class="gallery">
+                                <a href="img/gallery-2.jpg" data-lightbox="gallery-2" class="my-auto"><i class="fas fa-plus fa-2x text-white"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                        <div class="gallery-item h-100">
+                            <img src="img/gallery-3.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                            <div class="gallery-content">
+                                <div class="gallery-info">
+                                    <h5 class="text-white text-uppercase mb-2">World Tour</h5>
+                                    <a href="#" class="btn-hover text-white">View All Place <i class="fa fa-arrow-right ms-2"></i></a>
+                                </div>
+                            </div>
+                            <div class="gallery">
+                                <a href="img/gallery-3.jpg" data-lightbox="gallery-3" class="my-auto"><i class="fas fa-plus fa-2x text-white"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Gallery End -->
+
+
+    <!-- Team Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Travel Guide</h6>
+                <h1 class="mb-5">Meet Our Guide</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-1.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Full Name</h5>
+                            <small>Designation</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-2.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Full Name</h5>
+                            <small>Designation</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-3.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Full Name</h5>
+                            <small>Designation</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-4.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Full Name</h5>
+                            <small>Designation</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+        
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Company</h4>
+                    <a class="btn btn-link" href="about.html">About Us</a>
+                    <a class="btn btn-link" href="contact.html">Contact Us</a>
+                    <a class="btn btn-link" href="privacy.html">Privacy Policy</a>
+                    <a class="btn btn-link" href="T&C.html">Terms & Condition</a>
+                    <a class="btn btn-link" href="Help.html">FAQs & Help</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Contact</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 92204 13324</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@travelcounty.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/profile.php?id=61568608033164"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Gallery</h4>
+                    <div class="row g-2 pt-2">
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/package-1.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/package-2.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/package-3.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/package-2.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/package-3.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/package-1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Newsletter</h4>
+                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">Travel County</a>, All Right Reserved.
+
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="index.html">Home</a>
+                            <a href="">Cookies</a>
+                            <a href="">Help</a>
+                            <a href="">FQAs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
